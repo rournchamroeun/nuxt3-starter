@@ -10,9 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@mdi/font": "^7.3.67",
     "@nuxt/devtools": "latest",
+    "@unocss/nuxt": "^0.57.5",
+    "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.1",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.5",
+    "unocss": "^0.57.5",
+    "unocss-preset-useful": "^0.3.4",
     "vue": "^3.3.8",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vuetify-nuxt-module": "^0.6.7"
   }
 }

@@ -1,4 +1,20 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  modules: [
+    'vuetify-nuxt-module',
+    '@unocss/nuxt',
+  ],
+  css: ['~/assets/scss/index.scss'],
+  postcss: {
+    plugins: {
+      autoprefixer: {},
+    },
+  },
+  vuetify: {
+    moduleOptions: {
+      includeTransformAssetsUrls: true,
+      prefixComposables: true
+    }
+  }
 })
