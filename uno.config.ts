@@ -31,21 +31,9 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      primary: '#d77908',
-      secondary: {
-        '50': '#eff9ff',
-        '100': '#dff3ff',
-        '200': '#b7e8ff',
-        '300': '#77d7ff',
-        '400': '#2ec4ff',
-        '500': '#03adf4',
-        '600': '#008ad1',
-        '700': '#006ea9',
-        '800': '#015d8b',
-        '900': '#074d73',
-        '950': '#042940',
-      },
-    },
+      primary: '#03DAC6',
+      primaryTest: '#1b5875',
+    }
   },
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: 'prose prose-sm m-auto text-left'.split(' '),

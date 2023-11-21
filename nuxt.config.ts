@@ -14,7 +14,8 @@ export default defineNuxtConfig({
   vuetify: {
     moduleOptions: {
       includeTransformAssetsUrls: true,
-      prefixComposables: true
+      prefixComposables: true,
+      styles: 'none'
     }
   }
 })

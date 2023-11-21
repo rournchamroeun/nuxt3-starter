@@ -1,24 +1,26 @@
 import {defineVuetifyConfiguration} from "vuetify-nuxt-module/custom-configuration";
+// import {color} from "~/test/theme";
+// import {color} from "~/utils/theme";
+// console.log('color', color)
+
 export default defineVuetifyConfiguration({
-  theme: {
-    defaultTheme: 'light',
-    themes: {
-      light: {
-        dark: false,
-        colors: {
-          background: '#FFFFFF',
-          surface: '#FFFFFF',
-          primary: '#4CAF50',
-          secondary: '#03DAC6',
-          error: '#B00020',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FB8C00',
-        },
-      },
-      dark: {
-        dark: true,
-      },
-    },
-  },
+//   theme: {
+//     defaultTheme: 'light',
+//     themes: {
+//       light: {
+//         dark: false,
+//         colors: {
+//           primary: color.primary,
+//           secondary: color.secondary,
+//           error: color.error,
+//           info: color.info,
+//           success: color.success,
+//           warning: color.warning,
+//         },
+//       },
+//       dark: {
+//         dark: true,
+//       },
+//     },
+//   }
 })

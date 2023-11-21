@@ -1,7 +1,3 @@
-//@import "plugins";
-@forward 'vuetify/settings' with (
-  $utilities: false,
-  $color-pack: false,
-);
-
+@import "settings";
+@import "vuetify/styles";
 @import "customs";

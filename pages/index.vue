@@ -4,13 +4,13 @@
 
 <template>
   <v-btn size="small">Small Button</v-btn>
-  <v-btn color="primary" class="text-sm hover-text-red bg-primary-100">
+  <v-btn color="primary" class="text-sm hover-text-red bg-primary bg-sec">
     Activator slot
   </v-btn>
-  <button class="bg-primary font-bold py-2 px-4 rounded">
+  <button class="pa-3 bg-secondary font-bold py-2 px-4 rounded">
     Button
   </button>
-  <div class="flex bg-primary !hover:text-red">
+  <div class="flex bg-primary-test !hover:text-red p-8 pa-3">
     pk
   </div>
   <v-btn prepend-icon="$vuetify" stacked>
