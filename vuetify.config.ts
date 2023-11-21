@@ -4,23 +4,18 @@ import {defineVuetifyConfiguration} from "vuetify-nuxt-module/custom-configurati
 // console.log('color', color)
 
 export default defineVuetifyConfiguration({
-//   theme: {
-//     defaultTheme: 'light',
-//     themes: {
-//       light: {
-//         dark: false,
-//         colors: {
-//           primary: color.primary,
-//           secondary: color.secondary,
-//           error: color.error,
-//           info: color.info,
-//           success: color.success,
-//           warning: color.warning,
-//         },
-//       },
-//       dark: {
-//         dark: true,
-//       },
-//     },
-//   }
+  theme: {
+    defaultTheme: 'light',
+    themes: {
+      light: {
+        dark: false,
+        colors: {
+          primary: '#1b5875',
+        },
+      },
+      dark: {
+        dark: true,
+      },
+    },
+  }
 })
